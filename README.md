@@ -1,16 +1,30 @@
-# ParkControl
-Sistema de controle de estacionamento
+# Sistema de Controle de Estacionamento
 
-Este é um projeto de estacionamento em Python que utiliza as bibliotecas Tkinter, SQLite3 e Datetime. O projeto inclui um sistema de cadastro de clientes e veículos, registro de entrada e saída de veículos e cálculo automático do valor a ser pago pelo cliente.
+## Visão Geral
 
-A interface gráfica do usuário é desenvolvida com a biblioteca Tkinter, que permite a criação de widgets de interface de usuário como botões, caixas de seleção e campos de entrada de texto. A biblioteca SQLite3 é utilizada para armazenar e gerenciar as informações de clientes e veículos, bem como o registro de entradas e saídas de veículos. A biblioteca Datetime é utilizada para calcular a duração da permanência do veículo no estacionamento e o valor a ser pago pelo cliente.
+O Sistema de Controle de Estacionamento é um projeto desenvolvido em Python que utiliza as bibliotecas Tkinter, SQLite3 e Datetime. Ele oferece funcionalidades para cadastro de clientes e veículos, registro de entrada e saída de veículos e cálculo automático do valor a ser pago pelo cliente.
 
-Sistema em contrução, implementado apenas:
--Cadastro de veiculos no banco de dados
--Visualização de tabela do banco de dados
-    
-A ser implementado:
-- Cadastro de cliente
-- Buscar veiculo por algum dado(telefone ou placa por exemplo)
-- Saida de veiculo(com tempo total de uso do cliente e valor a ser pago)
-- Caixa de movimentação(valores que se deve ter no caixa)
+## Tecnologias Utilizadas
+
+- **Tkinter**: Biblioteca para criação da interface gráfica do usuário.
+- **SQLite3**: Banco de dados embutido para armazenamento e gerenciamento de informações.
+- **Datetime**: Utilizado para cálculos de tempo e duração.
+
+## Funcionalidades Implementadas
+
+1. **Cadastro de Veículos no Banco de Dados**: Permite o registro de novos veículos no sistema, armazenando informações como placa, modelo e cor.
+2. **Visualização de Tabela do Banco de Dados**: Exibe uma tabela com os registros de veículos cadastrados no banco de dados.
+
+## Funcionalidades a serem Implementadas
+
+1. **Cadastro de Clientes**: Adição da funcionalidade para cadastrar clientes, armazenando informações como nome, telefone, entre outros.
+2. **Busca de Veículos por Dados**: Implementação da busca de veículos a partir de informações como telefone ou placa.
+3. **Saída de Veículos**: Adição da funcionalidade para registrar a saída de veículos, calculando o tempo total de uso e o valor a ser pago pelo cliente.
+4. **Caixa de Movimentação**: Inclusão de uma caixa de movimentação para controlar os valores que devem estar no caixa do estacionamento.
+
+## Contato
+
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
+
+- Email: dennys_1994@live.com
+
